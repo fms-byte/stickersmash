@@ -8,8 +8,8 @@ import { captureRef } from "react-native-view-shot";
 import domtoimage from 'dom-to-image';
 import * as SplashScreen from 'expo-splash-screen';
 
-SplashScreen.preventAutoHideAsync();
-setTimeout(SplashScreen.hideAsync, 5000);
+// SplashScreen.preventAutoHideAsync();
+// setTimeout(SplashScreen.hideAsync, 5000);
 
 import Button from "./components/Button";
 import ImageViewer from "./components/ImageViewer";
